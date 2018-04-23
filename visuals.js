@@ -21,9 +21,10 @@ function initVisual(){
 
 //////  /////////////// /////////////  helpers
 function tick(event) {
-
+  //stars.x+=velStars;
   line.graphics.s("white").ss(2, "round").mt(equis,igriega);
   //console.log("prex "+prex+" prey " + prey + " equis "+equis+" igriega "+igriega);
+
   stage.update();
 }
 
